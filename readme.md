@@ -4,15 +4,14 @@ Contains free and open-sourced website templates, including but not limited to S
 
 **Download from browsable page**: https://awesome-landingpages.vercel.app/
 
+### Looking for a custom landing page?
+- If you are looking for a custom one, contact [here](https://tally.so/r/woO0Kx)
 
-#### Updated Regularly
-New templates will be uploaded every month. Feel free to star this repository 🌟. 
+ Feel free to star this repository 🌟. 
 
 **Have a generic template in mind?**
 - Create a new [template issue](https://github.com/PaulleDemon/landing-pages/issues/new/choose), once your template request have enough thumbs up, we'll make one. 
 
-### Looking for a custom landing page?
-- If you are looking for a custom one, contact [here](https://tally.so/r/woO0Kx)
 
 ### Consider supporting open-source.
 
