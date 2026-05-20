@@ -5,7 +5,7 @@ Contains free and open-sourced website templates, including but not limited to S
 **Download from browsable page**: https://awesome-landingpages.vercel.app/
 
 ### Looking for a custom landing page?
-- If you are looking for a custom one, contact [here](https://tally.so/r/woO0Kx)
+- If you are looking for a custom one, contact [here](https://tally.so/r/jaJjA1)
 
  Feel free to star this repository 🌟. 
 
