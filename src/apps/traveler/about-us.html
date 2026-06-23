@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About us | TabiMichi Japan</title>
+        <meta name="description" content="TabiMichi Japanの考え方、旅づくりの姿勢、チームについて。" />
+        <link rel="shortcut icon" href="./assets/logo/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col">
+        <div class="scroll-progress" aria-hidden="true"></div>
+        <header class="site-header tw-fixed tw-top-0 tw-z-20 tw-flex tw-h-[76px] tw-w-full tw-place-items-center tw-px-[5%] lg:tw-justify-around">
+            <a class="brand-mark" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a>
+            <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
+                <nav class="tw-flex tw-h-full tw-w-max tw-gap-3 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end lg:tw-mx-auto lg:tw-place-items-center">
+                    <a class="header-links" href="./index.html#concept">旅の思想</a>
+                    <a class="header-links" href="./index.html#plans">旅程</a>
+                    <a class="header-links" href="./index.html#services">手配内容</a>
+                    <a class="header-links" href="./contact.html">お問い合わせ</a>
+                </nav>
+            </div>
+            <button class="bi bi-list tw-absolute tw-right-3 tw-top-4 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+        </header>
+
+        <main class="legal-page">
+            <div class="legal-wrap">
+                <p class="eyebrow">About us</p>
+                <h1>日本の旅を、静かに深く設計する。</h1>
+                <article class="legal-card">
+                    <h2>TabiMichi Japanについて</h2>
+                    <p>TabiMichi Japanは、日本各地の宿、案内人、料理人、職人、交通手配パートナーと連携し、ひと組ごとに旅を設計するトラベルコンシェルジュです。</p>
+                    <p>私たちが大切にしているのは、予定を増やすことではなく、旅の密度を上げること。移動の余白、朝の静けさ、地域の人との対話、宿に戻る時間まで含めて、無理のない旅程に整えます。</p>
+                    <h2>大切にしていること</h2>
+                    <ul>
+                        <li>地域の文化や暮らしに敬意を払うこと</li>
+                        <li>旅行者と受け入れる地域の双方に心地よい設計であること</li>
+                        <li>混雑や移動負担を読み、旅の余白を残すこと</li>
+                        <li>表面的な観光ではなく、背景まで伝わる体験を届けること</li>
+                    </ul>
+                    <h2>対応する旅</h2>
+                    <p>家族旅行、ハネムーン、初めての日本旅行、再訪旅行、食や工芸をテーマにした旅、法人・VIP手配まで対応します。</p>
+                    <a class="btn primary-cta tw-mt-8" href="./contact.html">旅を相談する</a>
+                </article>
+            </div>
+        </main>
+
+        <footer class="site-footer tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-8 tw-p-[5%] tw-px-[10%] max-md:tw-flex-col">
+            <div class="tw-flex tw-h-full tw-w-[280px] tw-flex-col tw-gap-5 max-md:tw-w-full">
+                <a class="brand-mark footer-brand" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a>
+                <p>東京都渋谷区神宮前 3-12-8<br />hello@tabimichi.jp</p>
+            </div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4">
+                <h2>Company</h2>
+                <a href="./about-us.html" class="footer-link">About us</a>
+                <a href="./index.html#plans" class="footer-link">旅程プラン</a>
+                <a href="./contact.html" class="footer-link">お問い合わせ</a>
+            </div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4">
+                <h2>Legal</h2>
+                <a href="./privacy-policy.html" class="footer-link">プライバシーポリシー</a>
+                <a href="./terms-of-service.html" class="footer-link">利用規約</a>
+                <a href="./legal-notice.html" class="footer-link">特定商取引法に基づく表記</a>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>

@@ -1,2 +1,6 @@
 node_modules
 .vscode
+.traveler-*.log
+.next-dev*.log
+.next
+out

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>特定商取引法に基づく表記 | TabiMichi Japan</title>
+        <meta name="description" content="TabiMichi Japanの特定商取引法に基づく表記。" />
+        <link rel="shortcut icon" href="./assets/logo/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col">
+        <header class="site-header tw-fixed tw-top-0 tw-z-20 tw-flex tw-h-[72px] tw-w-full tw-place-items-center tw-px-[5%] lg:tw-justify-around">
+            <a class="brand-mark" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a>
+            <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
+                <nav class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end lg:tw-mx-auto lg:tw-place-items-center">
+                    <a class="header-links" href="./index.html">ホーム</a>
+                    <a class="header-links" href="./contact.html">お問い合わせ</a>
+                    <a class="header-links" href="./privacy-policy.html">プライバシー</a>
+                    <a class="header-links" href="./terms-of-service.html">利用規約</a>
+                </nav>
+            </div>
+            <button class="bi bi-list tw-absolute tw-right-3 tw-top-4 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+        </header>
+        <main class="legal-page">
+            <div class="legal-wrap">
+                <p class="eyebrow">Legal Notice</p>
+                <h1>特定商取引法に基づく表記</h1>
+                <article class="legal-card">
+                    <h2>事業者名</h2>
+                    <p>TabiMichi Japan</p>
+                    <h2>所在地</h2>
+                    <p>〒150-0001 東京都渋谷区神宮前 3-12-8</p>
+                    <h2>お問い合わせ</h2>
+                    <p>hello@tabimichi.jp<br />電話番号はご請求があった場合、遅滞なく開示します。</p>
+                    <h2>販売価格</h2>
+                    <p>旅行企画料、手配料、宿泊・交通・体験費用は、個別見積書に税込価格で表示します。</p>
+                    <h2>商品代金以外の必要料金</h2>
+                    <p>振込手数料、通信費、現地で発生する追加飲食費、個人的費用、任意保険料などはお客様負担となります。</p>
+                    <h2>支払方法と支払時期</h2>
+                    <p>銀行振込またはオンライン決済。支払時期は見積書および予約確認書に記載します。</p>
+                    <h2>キャンセル・返金</h2>
+                    <p>予約確定後のキャンセルは、当社規定および各施設・交通機関・体験提供者の取消条件に従います。</p>
+                    <h2>サービス提供時期</h2>
+                    <p>お支払い確認後、合意した旅行日程および手配内容に基づき提供します。</p>
+                </article>
+            </div>
+        </main>
+        <footer class="site-footer tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-8 tw-p-[5%] tw-px-[10%] max-md:tw-flex-col">
+            <div class="tw-flex tw-h-full tw-w-[280px] tw-flex-col tw-gap-5 max-md:tw-w-full"><a class="brand-mark footer-brand" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a><p>東京都渋谷区神宮前 3-12-8<br />hello@tabimichi.jp</p></div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4"><h2>Company</h2><a href="./about-us.html" class="footer-link">About us</a><a href="./index.html#plans" class="footer-link">旅程プラン</a><a href="./contact.html" class="footer-link">お問い合わせ</a></div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4"><h2>Legal</h2><a href="./privacy-policy.html" class="footer-link">プライバシーポリシー</a><a href="./terms-of-service.html" class="footer-link">利用規約</a><a href="./legal-notice.html" class="footer-link">特定商取引法に基づく表記</a></div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>

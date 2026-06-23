@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>お問い合わせ | TabiMichi Japan</title>
+        <meta name="description" content="TabiMichi Japanへの旅行相談、お見積もり、取材、法人のお問い合わせはこちら。" />
+        <link rel="shortcut icon" href="./assets/logo/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col">
+        <div class="scroll-progress" aria-hidden="true"></div>
+        <header class="site-header tw-fixed tw-top-0 tw-z-20 tw-flex tw-h-[76px] tw-w-full tw-place-items-center tw-px-[5%] lg:tw-justify-around">
+            <a class="brand-mark" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a>
+            <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
+                <nav class="tw-flex tw-h-full tw-w-max tw-gap-3 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end lg:tw-mx-auto lg:tw-place-items-center">
+                    <a class="header-links" href="./index.html#concept">旅の思想</a>
+                    <a class="header-links" href="./index.html#plans">旅程</a>
+                    <a class="header-links" href="./index.html#services">手配内容</a>
+                    <a class="header-links" href="./privacy-policy.html">プライバシー</a>
+                    <a class="header-links" href="./terms-of-service.html">利用規約</a>
+                </nav>
+            </div>
+            <button class="bi bi-list tw-absolute tw-right-3 tw-top-4 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+        </header>
+
+        <main class="legal-page">
+            <div class="legal-wrap">
+                <p class="eyebrow">Contact</p>
+                <h1>旅の相談窓口</h1>
+                <div class="legal-card contact-grid">
+                    <section class="contact-side-note">
+                        <h2>最初に聞かせてほしいこと</h2>
+                        <p>完璧に決まっていなくて大丈夫です。旅の好みや避けたいことまで含めて、余白のある初回提案に落とし込みます。</p>
+                        <ul>
+                            <li>旅行予定時期と日数</li>
+                            <li>人数、年齢層、移動の希望</li>
+                            <li>興味のある地域、食、文化体験</li>
+                            <li>おおよその予算感</li>
+                        </ul>
+                        <h2>返信目安</h2>
+                        <p>平日10:00-18:00 JSTに確認し、2営業日以内にご連絡します。</p>
+                    </section>
+                    <form class="contact-form">
+                        <label>お名前<input class="input" type="text" name="name" placeholder="山田 太郎" required /></label>
+                        <label>メールアドレス<input class="input" type="email" name="email" placeholder="you@example.com" required /></label>
+                        <label>旅行予定時期<input class="input" type="text" name="season" placeholder="2026年4月、秋ごろ など" required /></label>
+                        <label>旅のスタイル
+                            <select class="input" name="style" required>
+                                <option value="">選択してください</option>
+                                <option>初めての日本旅行</option>
+                                <option>家族旅行</option>
+                                <option>ハネムーン・記念日</option>
+                                <option>アート・食・文化体験</option>
+                                <option>法人・VIP手配</option>
+                            </select>
+                        </label>
+                        <label>お問い合わせ内容<textarea class="input" name="message" placeholder="人数、行きたい地域、興味のある体験など" required></textarea></label>
+                        <p class="form-status" aria-live="polite"></p>
+                        <button class="btn primary-cta" type="submit">相談内容を送信</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-8 tw-p-[5%] tw-px-[10%] max-md:tw-flex-col">
+            <div class="tw-flex tw-h-full tw-w-[280px] tw-flex-col tw-gap-5 max-md:tw-w-full">
+                <a class="brand-mark footer-brand" href="./index.html"><img src="./assets/logo/logo.png" alt="TabiMichi Japan" /><span>TabiMichi Japan</span></a>
+                <p>東京都渋谷区神宮前 3-12-8<br />hello@tabimichi.jp</p>
+            </div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4">
+                <h2>Company</h2>
+                <a href="./about-us.html" class="footer-link">About us</a>
+                <a href="./index.html#concept" class="footer-link">旅の思想</a>
+                <a href="./index.html#plans" class="footer-link">旅程</a>
+                <a href="./contact.html" class="footer-link">お問い合わせ</a>
+            </div>
+            <div class="tw-flex tw-h-full tw-w-[220px] tw-flex-col tw-gap-4">
+                <h2>Legal</h2>
+                <a href="./privacy-policy.html" class="footer-link">プライバシーポリシー</a>
+                <a href="./terms-of-service.html" class="footer-link">利用規約</a>
+                <a href="./legal-notice.html" class="footer-link">特定商取引法に基づく表記</a>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>
