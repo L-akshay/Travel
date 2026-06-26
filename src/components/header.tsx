@@ -56,7 +56,7 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <Link className="btn nav-cta" href="/#book" onClick={() => setMenuOpen(false)}>
+        <Link className="btn nav-cta" href="/contact" onClick={() => setMenuOpen(false)}>
           旅を相談 <span>↗</span>
         </Link>
       </div>

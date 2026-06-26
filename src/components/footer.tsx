@@ -23,15 +23,15 @@ export function Footer() {
         </div>
       </div>
       <div>
-        <h2>Company</h2>
-        <Link href="/about-us">About us</Link>
+        <h2>会社情報</h2>
+        <Link href="/about-us">私たちについて</Link>
         <Link href="/#concept">旅の思想</Link>
         <Link href="/#plans">旅程</Link>
         <Link href="/#services">手配内容</Link>
         <Link href="/contact">お問い合わせ</Link>
       </div>
       <div>
-        <h2>Legal</h2>
+        <h2>法務</h2>
         <Link href="/privacy-policy">プライバシーポリシー</Link>
         <Link href="/terms-of-service">利用規約</Link>
         <Link href="/legal-notice">特定商取引法に基づく表記</Link>
